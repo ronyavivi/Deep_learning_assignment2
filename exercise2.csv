@@ -1,0 +1,4 @@
+,model,Test score (Accuracy),Train score (Accuracy),Number of trainable parameters,Number of layers,Regularization methods,Number of epochs,Loss function,Optimizer
+0,Basic CNN,0.72625,0.99,"27,639,810",6,"BatchNormalisation, Max pooling, Dropout",15,SparseCategoricalCrossentropy,adam
+1,My Model,0.76375,0.97375,"2,160,770",7,"BatchNormalisation, Max pooling, dropout",15,SparseCategoricalCrossentropy,adam
+2,Xception model,0.97,1,"147,458",82,"BatchNormalisation, Max pooling, Dropout",10,SparseCategoricalCrossentropy,adam
